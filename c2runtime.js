@@ -20214,6 +20214,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.SetAngle,
 	cr.system_object.prototype.acts.SetVar,
 	cr.system_object.prototype.acts.GoToLayout,
+	cr.system_object.prototype.acts.SaveState,
 	cr.system_object.prototype.cnds.Every,
 	cr.system_object.prototype.exps.random,
 	cr.system_object.prototype.cnds.PickRandom,
