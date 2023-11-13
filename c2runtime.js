@@ -20193,10 +20193,10 @@ cr.behaviors.solid = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Keyboard,
-	cr.plugins_.Sprite,
 	cr.plugins_.Text,
-	cr.plugins_.Touch,
 	cr.plugins_.TiledBg,
+	cr.plugins_.Sprite,
+	cr.plugins_.Touch,
 	cr.behaviors.solid,
 	cr.behaviors.Platform,
 	cr.behaviors.scrollto,
